@@ -15,7 +15,7 @@ div{
 #menu
 {
 	height : 100%;
-	width : 100%px;
+	width : 100%;
 	top : 50%;
 	background: #F0F0F0;
 	position:relative;
@@ -37,7 +37,7 @@ a
 }
 
 #name{
-	width : 100%;
+	width : 1250px;
 	height : 50px;
 }
 
@@ -52,8 +52,8 @@ a
 
 body
 {
-	width : inherit;
-	height : inherit;
+	width : auto;
+	height : auto;
 	padding-left : calc(50% - 625px);
 	padding-top : 100px;
 	border : 0px;
