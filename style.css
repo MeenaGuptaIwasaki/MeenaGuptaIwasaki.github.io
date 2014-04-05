@@ -19,7 +19,6 @@ div{
 	top : 50%;
 	background: #F0F0F0;
 	position:relative;
-	text-align: center
 
 
 
@@ -29,7 +28,6 @@ div{
 {
 	display: inline;
 	margin-left:25px;
-
 }
 
 a
@@ -45,21 +43,24 @@ a
 
 #space
 {
-	position : absolute;
-	top: 50%;
-	left: 50%;
+	position : relative;
+	top : 0px;
+	left : 0px;
 	background : #F8F8F8 ;
 	width : 1250px;
 	height : 600px;
-	margin-top : -300px;
-	margin-left: -625px;
 }
 
 body
 {
+	width : inherit;
+	height : inherit;
+	padding-left : calc(50% - 625px);
+	padding-top : 200px;
 	border : 0px;
-	margin-left: 0%;
 	margin-right : 0%;
 	margin-top : 0%;
+	margin-left : 0%;
+
 
 }
