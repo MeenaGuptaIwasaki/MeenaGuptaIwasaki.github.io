@@ -1,0 +1,63 @@
+div{
+	display : block;
+	font-family: arial
+}
+
+#toolbar
+{
+	width : 100%;
+	height: 5%;
+	position : relative;
+	background: #F0F0F0;
+
+}
+
+#menu
+{
+	height : 100%;
+	width : 100%;
+	top : 50%;
+	background: #F0F0F0;
+	position:relative;
+	text-align: center
+
+
+
+}
+
+.navbuttons
+{
+	display: inline;
+	margin-left:25px;
+
+}
+
+a
+{
+	text-decoration: none;
+}
+
+#name{
+	margin-left : 10%;
+	height : 95%;
+	overflow-y: scroll;
+}
+
+#space
+{
+	background : #F8F8F8 ;
+	width : auto;
+	height : 600px;
+	margin-left: 15%;
+	margin-right : 15%;
+	margin-top : 10%;
+}
+
+body
+{
+	border : 0px;
+	margin-left: 0%;
+	margin-right : 0%;
+	margin-top : 0%;
+
+}
